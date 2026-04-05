@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC65AE322F82037C00FE59C3 /* tapAndScoreGolf Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BC65AE312F82037C00FE59C3 /* tapAndScoreGolf Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC65AE332F82037C00FE59C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC65AE252F82037C00FE59C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC65AE302F82037C00FE59C3;
+			remoteInfo = "tapAndScoreGolf Watch App";
+		};
+		BC65AE412F82037E00FE59C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC65AE252F82037C00FE59C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC65AE302F82037C00FE59C3;
+			remoteInfo = "tapAndScoreGolf Watch App";
+		};
+		BC65AE4B2F82037E00FE59C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC65AE252F82037C00FE59C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC65AE302F82037C00FE59C3;
+			remoteInfo = "tapAndScoreGolf Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC65AE572F82037E00FE59C3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BC65AE322F82037C00FE59C3 /* tapAndScoreGolf Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC65AE2B2F82037C00FE59C3 /* tapAndScoreGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tapAndScoreGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC65AE312F82037C00FE59C3 /* tapAndScoreGolf Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tapAndScoreGolf Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC65AE402F82037E00FE59C3 /* tapAndScoreGolf Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tapAndScoreGolf Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC65AE4A2F82037E00FE59C3 /* tapAndScoreGolf Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tapAndScoreGolf Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BC65AE352F82037C00FE59C3 /* tapAndScoreGolf Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tapAndScoreGolf Watch App";
+			sourceTree = "<group>";
+		};
+		BC65AE432F82037E00FE59C3 /* tapAndScoreGolf Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tapAndScoreGolf Watch AppTests";
+			sourceTree = "<group>";
+		};
+		BC65AE4D2F82037E00FE59C3 /* tapAndScoreGolf Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tapAndScoreGolf Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC65AE2E2F82037C00FE59C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC65AE3D2F82037E00FE59C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC65AE472F82037E00FE59C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC65AE242F82037C00FE59C3 = {
+			isa = PBXGroup;
+			children = (
+				BC65AE352F82037C00FE59C3 /* tapAndScoreGolf Watch App */,
+				BC65AE432F82037E00FE59C3 /* tapAndScoreGolf Watch AppTests */,
+				BC65AE4D2F82037E00FE59C3 /* tapAndScoreGolf Watch AppUITests */,
+				BC65AE2C2F82037C00FE59C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC65AE2C2F82037C00FE59C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC65AE2B2F82037C00FE59C3 /* tapAndScoreGolf.app */,
+				BC65AE312F82037C00FE59C3 /* tapAndScoreGolf Watch App.app */,
+				BC65AE402F82037E00FE59C3 /* tapAndScoreGolf Watch AppTests.xctest */,
+				BC65AE4A2F82037E00FE59C3 /* tapAndScoreGolf Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC65AE2A2F82037C00FE59C3 /* tapAndScoreGolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC65AE582F82037E00FE59C3 /* Build configuration list for PBXNativeTarget "tapAndScoreGolf" */;
+			buildPhases = (
+				BC65AE292F82037C00FE59C3 /* Resources */,
+				BC65AE572F82037E00FE59C3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC65AE342F82037C00FE59C3 /* PBXTargetDependency */,
+			);
+			name = tapAndScoreGolf;
+			packageProductDependencies = (
+			);
+			productName = tapAndScoreGolf;
+			productReference = BC65AE2B2F82037C00FE59C3 /* tapAndScoreGolf.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		BC65AE302F82037C00FE59C3 /* tapAndScoreGolf Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC65AE542F82037E00FE59C3 /* Build configuration list for PBXNativeTarget "tapAndScoreGolf Watch App" */;
+			buildPhases = (
+				BC65AE2D2F82037C00FE59C3 /* Sources */,
+				BC65AE2E2F82037C00FE59C3 /* Frameworks */,
+				BC65AE2F2F82037C00FE59C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BC65AE352F82037C00FE59C3 /* tapAndScoreGolf Watch App */,
+			);
+			name = "tapAndScoreGolf Watch App";
+			packageProductDependencies = (
+			);
+			productName = "tapAndScoreGolf Watch App";
+			productReference = BC65AE312F82037C00FE59C3 /* tapAndScoreGolf Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC65AE3F2F82037E00FE59C3 /* tapAndScoreGolf Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC65AE5B2F82037E00FE59C3 /* Build configuration list for PBXNativeTarget "tapAndScoreGolf Watch AppTests" */;
+			buildPhases = (
+				BC65AE3C2F82037E00FE59C3 /* Sources */,
+				BC65AE3D2F82037E00FE59C3 /* Frameworks */,
+				BC65AE3E2F82037E00FE59C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC65AE422F82037E00FE59C3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BC65AE432F82037E00FE59C3 /* tapAndScoreGolf Watch AppTests */,
+			);
+			name = "tapAndScoreGolf Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "tapAndScoreGolf Watch AppTests";
+			productReference = BC65AE402F82037E00FE59C3 /* tapAndScoreGolf Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC65AE492F82037E00FE59C3 /* tapAndScoreGolf Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC65AE5E2F82037E00FE59C3 /* Build configuration list for PBXNativeTarget "tapAndScoreGolf Watch AppUITests" */;
+			buildPhases = (
+				BC65AE462F82037E00FE59C3 /* Sources */,
+				BC65AE472F82037E00FE59C3 /* Frameworks */,
+				BC65AE482F82037E00FE59C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC65AE4C2F82037E00FE59C3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BC65AE4D2F82037E00FE59C3 /* tapAndScoreGolf Watch AppUITests */,
+			);
+			name = "tapAndScoreGolf Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "tapAndScoreGolf Watch AppUITests";
+			productReference = BC65AE4A2F82037E00FE59C3 /* tapAndScoreGolf Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC65AE252F82037C00FE59C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					BC65AE2A2F82037C00FE59C3 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					BC65AE302F82037C00FE59C3 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					BC65AE3F2F82037E00FE59C3 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = BC65AE302F82037C00FE59C3;
+					};
+					BC65AE492F82037E00FE59C3 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = BC65AE302F82037C00FE59C3;
+					};
+				};
+			};
+			buildConfigurationList = BC65AE282F82037C00FE59C3 /* Build configuration list for PBXProject "tapAndScoreGolf" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC65AE242F82037C00FE59C3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BC65AE2C2F82037C00FE59C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC65AE2A2F82037C00FE59C3 /* tapAndScoreGolf */,
+				BC65AE302F82037C00FE59C3 /* tapAndScoreGolf Watch App */,
+				BC65AE3F2F82037E00FE59C3 /* tapAndScoreGolf Watch AppTests */,
+				BC65AE492F82037E00FE59C3 /* tapAndScoreGolf Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC65AE292F82037C00FE59C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC65AE2F2F82037C00FE59C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC65AE3E2F82037E00FE59C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC65AE482F82037E00FE59C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC65AE2D2F82037C00FE59C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC65AE3C2F82037E00FE59C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC65AE462F82037E00FE59C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC65AE342F82037C00FE59C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC65AE302F82037C00FE59C3 /* tapAndScoreGolf Watch App */;
+			targetProxy = BC65AE332F82037C00FE59C3 /* PBXContainerItemProxy */;
+		};
+		BC65AE422F82037E00FE59C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC65AE302F82037C00FE59C3 /* tapAndScoreGolf Watch App */;
+			targetProxy = BC65AE412F82037E00FE59C3 /* PBXContainerItemProxy */;
+		};
+		BC65AE4C2F82037E00FE59C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC65AE302F82037C00FE59C3 /* tapAndScoreGolf Watch App */;
+			targetProxy = BC65AE4B2F82037E00FE59C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC65AE522F82037E00FE59C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N44DR7594Z;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC65AE532F82037E00FE59C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N44DR7594Z;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BC65AE552F82037E00FE59C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N44DR7594Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = tapAndScoreGolf;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.satoama.tapAndScoreGolf.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.6;
+			};
+			name = Debug;
+		};
+		BC65AE562F82037E00FE59C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N44DR7594Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = tapAndScoreGolf;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.satoama.tapAndScoreGolf.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.6;
+			};
+			name = Release;
+		};
+		BC65AE592F82037E00FE59C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N44DR7594Z;
+				INFOPLIST_KEY_CFBundleDisplayName = tapAndScoreGolf;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.satoama.tapAndScoreGolf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BC65AE5A2F82037E00FE59C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N44DR7594Z;
+				INFOPLIST_KEY_CFBundleDisplayName = tapAndScoreGolf;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.satoama.tapAndScoreGolf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC65AE5C2F82037E00FE59C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N44DR7594Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.satoama.tapAndScoreGolf-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapAndScoreGolf Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tapAndScoreGolf Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		BC65AE5D2F82037E00FE59C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N44DR7594Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.satoama.tapAndScoreGolf-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapAndScoreGolf Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tapAndScoreGolf Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		BC65AE5F2F82037E00FE59C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N44DR7594Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.satoama.tapAndScoreGolf-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "tapAndScoreGolf Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		BC65AE602F82037E00FE59C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N44DR7594Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.satoama.tapAndScoreGolf-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "tapAndScoreGolf Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC65AE282F82037C00FE59C3 /* Build configuration list for PBXProject "tapAndScoreGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC65AE522F82037E00FE59C3 /* Debug */,
+				BC65AE532F82037E00FE59C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC65AE542F82037E00FE59C3 /* Build configuration list for PBXNativeTarget "tapAndScoreGolf Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC65AE552F82037E00FE59C3 /* Debug */,
+				BC65AE562F82037E00FE59C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC65AE582F82037E00FE59C3 /* Build configuration list for PBXNativeTarget "tapAndScoreGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC65AE592F82037E00FE59C3 /* Debug */,
+				BC65AE5A2F82037E00FE59C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC65AE5B2F82037E00FE59C3 /* Build configuration list for PBXNativeTarget "tapAndScoreGolf Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC65AE5C2F82037E00FE59C3 /* Debug */,
+				BC65AE5D2F82037E00FE59C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC65AE5E2F82037E00FE59C3 /* Build configuration list for PBXNativeTarget "tapAndScoreGolf Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC65AE5F2F82037E00FE59C3 /* Debug */,
+				BC65AE602F82037E00FE59C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC65AE252F82037C00FE59C3 /* Project object */;
+}
