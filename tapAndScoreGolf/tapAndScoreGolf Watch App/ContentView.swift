@@ -27,7 +27,8 @@ struct ContentView: View {
     @State var showParSheet:Bool=false
     @State var par:Int?=nil
     @State var lastEntered:Date?=nil
-    
+    @State private var undoIsVisible: Bool = false
+    @State private var undoController = MomentaryUndoController()
     
     var body: some View {
         
@@ -36,7 +37,7 @@ struct ContentView: View {
             VStack(alignment: .leading) {
                 Image("tapAndScoreBanner")
                     //.imageScale(.small)
-                    .foregroundStyle(.tint).scaleEffect(0.9)
+                    .foregroundStyle(.tint).scaleEffect(1)
                 
                 HStack(alignment:.top){
                     VStack{
@@ -45,6 +46,7 @@ struct ContentView: View {
                         Text("Shots");Button(action:{
                             shotCnt+=1
                             lastEntered=Date()
+                            undoController.open(undoAction:{if(shotCnt>=1){shotCnt-=1}})
                             started=true
                         },label:{Text("\(shotCnt)").font(.title3)}).padding(.horizontal).disabled(par==nil)
                         
@@ -55,19 +57,39 @@ struct ContentView: View {
                             .font(.system(size:10))
                             .padding(.trailing, -2)
                             .padding(.top,2)
-
+                        
                         TimelineView(.periodic(from: .now, by: 10)) { context in
                             if let lastEntered {
                                 Text(format_timeInterval(context.date.timeIntervalSince(lastEntered)))
                                     .font(.footnote)
                                     .padding(.top,6)
                                 Text("ago").font(.caption2)
-
+                                
                             }
                         }
+                        
+                    }
+                }
+                .padding(.vertical)
+                .padding(.horizontal, -5)
+                .overlay {
+                    if undoIsVisible {
+                        Button(action: {
+                            undoController.undo{}
+                        }, label: {
+                            Text("Tap to undo")
+                        })
+                        .tint(.yellow)
+                        .offset(y:35)
+                    }
+                }
+                .opacity(undoIsVisible ? 0.5 : 1.0)
+                .onAppear{
+                    undoController.onVisibilityChanged = { visible in
+                          undoIsVisible = visible
+                      }
+                }
 
-                    } }.padding(.vertical).padding(.horizontal,-5)
-                
                 Group{
                     if(!started){
                         HStack{
@@ -78,17 +100,23 @@ struct ContentView: View {
                         
                     }else{
                         HStack{Spacer()
+                            //next button
                             Button(action:{
                                 guard holeNum<=18 else {return}
-                                
                                 parsScores.append((par:par!,score:shotCnt))
                                 
-                                if(holeNum != 18){
-                                    holeNum+=1}
-                                
+                                if(holeNum != 18){holeNum+=1}
+
+                                undoController.open(undoAction: {
+                                    if(holeNum != 1){holeNum-=1}
+                                    parsScores.removeLast()
+                                })
+
                                 shotCnt=0
                                 started=false
                                 par=nil
+
+                                
                             },label:{Text("Next hole").font(.system(size:14)).foregroundStyle(Color.yellow)}).padding(.bottom).buttonStyle(.plain).disabled(shotCnt==0)
                         }
                     }
@@ -113,6 +141,7 @@ struct ContentView: View {
                 
                 .padding(.leading, 10)            }.scaleEffect(scale)
                 .padding(.bottom).padding(.top,-15).padding(.trailing,6)
+
         }
     }
     private func score_row(
